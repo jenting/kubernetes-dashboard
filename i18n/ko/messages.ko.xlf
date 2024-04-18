@@ -63,7 +63,7 @@
         <target>이 액션은 다음 커맨드와 동일합니다. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/common/dialogs/deleteresource/template.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">38</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/common/dialogs/editresource/template.html</context>
@@ -91,7 +91,7 @@
         <target state="new">취소</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/common/dialogs/deleteresource/template.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">57</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/common/dialogs/editresource/template.html</context>
@@ -3815,6 +3815,14 @@
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="2640307640152196302" datatype="html">
+        <source>Delete now (sets delete grace period to 1 second instead of the default, which is usually 30 seconds)</source>
+        <target state="new">Delete now (sets delete grace period to 1 second instead of the default, which is usually 30 seconds)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/frontend/common/dialogs/deleteresource/template.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="7022070615528435141" datatype="html">
         <source>Delete</source>
         <target>삭제</target>
@@ -3824,7 +3832,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/common/dialogs/deleteresource/template.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5666190010581393226" datatype="html">
@@ -5505,7 +5513,7 @@
       <trans-unit id="8390750136998580263" datatype="html">
         <source>Namespace conflict</source>
         <target>네임스페이스 충돌</target>
-	<context-group purpose="location">
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/common/components/namespace/changedialog/template.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
@@ -5772,7 +5780,7 @@
       </trans-unit>
       <trans-unit id="2417328504220076358" datatype="html">
         <source>Settings have changed since last reload</source>
-	<target>마지막 재시작 이후로 설정이 변경되었습니다.</target>
+        <target>마지막 재시작 이후로 설정이 변경되었습니다.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/settings/global/saveanywaysdialog/template.html</context>
           <context context-type="linenumber">18</context>
@@ -5804,7 +5812,7 @@
       </trans-unit>
       <trans-unit id="8145371534269569687" datatype="html">
         <source>Last schedule</source>
-	<target>마지막 스케줄</target>
+        <target>마지막 스케줄</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/resource/workloads/cronjob/detail/template.html</context>
           <context context-type="linenumber">70</context>
@@ -5820,7 +5828,7 @@
       </trans-unit>
       <trans-unit id="4343527844687153745" datatype="html">
         <source>Starting deadline seconds</source>
-	<target>시작을 위한 기한(starting deadline seconds)</target>
+        <target>시작을 위한 기한(starting deadline seconds)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/resource/workloads/cronjob/detail/template.html</context>
           <context context-type="linenumber">82</context>
@@ -5872,7 +5880,7 @@
       </trans-unit>
       <trans-unit id="7162896756299241101" datatype="html">
         <source>Unschedulable</source>
-	<target>스케줄 불가</target>
+        <target>스케줄 불가</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/resource/cluster/node/detail/template.html</context>
           <context context-type="linenumber">45</context>
@@ -5912,7 +5920,7 @@
       </trans-unit>
       <trans-unit id="801601868429670560" datatype="html">
         <source>Boot ID</source>
-	<target>부트 ID</target>
+        <target>부트 ID</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/resource/cluster/node/detail/template.html</context>
           <context context-type="linenumber">87</context>
